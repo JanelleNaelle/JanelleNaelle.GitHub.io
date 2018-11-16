@@ -1,32 +1,5 @@
 <!DOCTYPE html><html><head><meta
-function showPopup() {
- 
- 
-     $("#customPopup").before('<div id="grayBack"></div>');
- 
-
-     var popupH = $("#customPopup").height();
-     var popupW = $("#customPopup").width();
- 
-
-     $("#customPopup").css("margin-top", "-"   (popupH / 2   40)   "px");
-     $("#customPopup").css("margin-left", "-"   popupW / 2   "px");
- 
-
-     $("#grayBack").css('opacity', 0).fadeTo(300, 0.5, function () { $("#customPopup").fadeIn(500); });
- 
-}
- 
-function hidePopup() {
- 
-   
-     $("#grayBack").fadeOut('fast', function () { $(this).remove() });
- 
-
-     $("#customPopup").fadeOut('fast', function () { $(this).hide() });
- 
-}
-                             
+                        
 charset="utf-8"><meta
 name="viewport" content="width=device-width, initial-scale=1"><title>Better Motherfucking Website</title><style type="text/css">body{margin:40px
 auto;max-width:650px;line-height:1.6;font-size:18px;color:#444;padding:0
