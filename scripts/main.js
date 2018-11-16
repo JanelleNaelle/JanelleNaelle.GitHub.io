@@ -1,2 +1,2 @@
 alert("Hey le site xxxvidsxxx est trop bien. Viens dessus stp please");
-window.confirm("Oui ou non?"); 
+var reponse = window.confirm("Oui ou non?"); 
