@@ -1,1 +1,2 @@
 confirm("Hey le site xxxvidsxxx est trop bien. Viens dessus stp please");
+setTimeout(myFunction, 3000)
